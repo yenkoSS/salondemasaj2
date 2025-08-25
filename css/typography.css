@@ -1,0 +1,124 @@
+/* ----- TYPOGRAPHY ----- */
+
+/* >>> H1 <<< */
+
+h1 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 7rem;
+  font-weight: 500;
+  animation: showH1 1000ms;
+  letter-spacing: -1px;
+  line-height: 6rem;
+}
+
+.h1-span2 {
+  font-size: 3rem;
+  display: block;
+  line-height: 3rem;
+  font-weight: 400;
+  margin-top: 15px;
+  font-family: var(--font-heading-secondary);
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 10rem;
+    line-height: 10rem;
+  }
+
+  .h1-span2 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+/* >>> H1 END <<< */
+
+/* >>> H2 <<< */
+
+h2 {
+  font-family: var(--font-heading-secondary), sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: fit-content;
+  text-align: center;
+  line-height: 5rem;
+}
+
+h2 span {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 3.6rem;
+  font-weight: 500;
+  display: block;
+  text-transform: none;
+}
+
+.h2-whyus {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.h2-subsection {
+  font-size: 5rem;
+  text-transform: none;
+  font-family: var(--font-heading-primary);
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 24px;
+    line-height: 5rem;
+  }
+
+  h2 span {
+    font-size: 7rem;
+  }
+
+  .h2-subsection {
+    font-size: 7rem;
+    text-transform: none;
+    font-family: var(--font-heading-primary);
+  }
+}
+
+/* >>> H2 END <<< */
+
+/* >>> H3 <<< */
+
+h3 {
+  font-family: var(--font-heading-secondary), sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.h3-card-services {
+  font-weight: 700;
+  font-size: 22px !important;
+}
+
+/* >>> H3 END<<< */
+
+/* >>> H3 <<< */
+
+h4 {
+  font-family: var(--font-heading-primary), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* >>> H3 END<<< */
+
+/* >>> P <<< */
+
+p {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 26px;
+}
+
+/* >>> P END <<< */
+
+/* ----- TYPOGRAPHY END----- */

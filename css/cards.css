@@ -1,0 +1,116 @@
+.card-faq {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.card-services {
+  border: 1px solid #7a472350;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-advantages {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-reviews {
+  position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .card-advantages {
+    transition: 200ms ease-out;
+  }
+
+  .card-advantages:hover {
+    background-color: var(--color-secondary) !important;
+    transition: 200ms ease-in;
+    transform: translateY(-6px);
+    z-index: 2;
+  }
+
+  .card-advantages:hover p {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-advantages:hover h3 {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-advantages:hover .icon-advantages {
+    bottom: 15px;
+    transition: 200ms ease-in;
+  }
+
+  .card-services {
+    transition: 200ms ease-out;
+  }
+
+  .card-services:hover {
+    background-color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+    transform: translateY(-6px);
+  }
+
+  .card-services:hover p {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-services:hover h3 {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-services:hover a {
+    background-color: white !important;
+    color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-services:hover .icon-services {
+    bottom: 15px;
+    transition: 200ms ease-in;
+  }
+
+  .card-subscription {
+    transition: 200ms ease-out;
+  }
+
+  .card-subscription:hover {
+    background-color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+    transform: translateY(-6px);
+  }
+
+  .card-subscription:hover p {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-subscription:hover h3 {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-subscription:hover a {
+    background-color: white !important;
+    color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-subscription:hover svg {
+    fill: white !important;
+  }
+
+  .card-faq {
+    transition: 200ms ease-out;
+  }
+
+  .card-faq:hover {
+    transition: 200ms ease-in;
+    transform: translateX(-6px);
+  }
+}
